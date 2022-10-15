@@ -5,7 +5,7 @@ from tkinter import *
 from tkinter import filedialog
 from setuptools import Command
 from pathlib import Path
-import trace
+import script
 import screenmaker
 import tkinter as tk
 import os
@@ -28,7 +28,7 @@ def click_btn():
         return ''
 
 def click_btn1():
-    line = trace.sitecheck1(filename)
+    line = script.main_script(filename)
 
 def click_btn2():
     second_window = tk.Toplevel(window)
