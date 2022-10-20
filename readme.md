@@ -4,9 +4,9 @@
 <h4 align="justify">Данная праграмма была написана во время участия в “Хакатон связи” (http://telehack.ru/about) осенью 2022 года и заняла первое место среди работ 1-2 курсов.<h3>
 
 #### Участники команды:  
-- https://github.com/Gerdelezhov
 - https://github.com/AleksandrSedelnikov
-- (ссылка)
+- https://github.com/cooleid
+- https://github.com/Gerdelezhov
 
 ## Цель работы:  
 Разработать ПО для автоматизация и упрощение процесса проверки интернет-ресурсов на сети операторов связи.
