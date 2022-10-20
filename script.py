@@ -1,43 +1,46 @@
-from os import system
-import scr
+import check
 import subprocess
-import urllib
-from urllib import request
+
+global check_l
+trace_data = []
+lines = []
 
 def nothing():
     pass
 
-def file_size(src_file):
-    return len(open(src_file).readlines())
+def file_size(file):
+    return len(open(file).readlines())
 
-def try_urlopen(link):
-    try:
-        urllib.request.urlopen(link)
-        return True
-    except Exception as ex:
-        nothing()
-    return False
+def trace(link):
+    output = subprocess.check_output(['tracert', link])
+    trace_data.append(output.decode('cp866'))
 
-def network_connection_check(link):
-    if not link.startswith('http'):
-        for prefix in ['https://', 'http://']:
-            if try_urlopen(prefix+link):
-                return prefix+link
-        return link
-    else:
-        return link
-
-def main_script(src_file):
-    size = file_size(src_file)
-    system('chcp 65001') 
-
+def save_data(src_file): #принимает на вход путь исходного файла
     f = open(src_file)
+    size = file_size(src_file)
+    outf = open('results.txt', 'w')
     for i in range (size):
         line = f.readline()
         link = line.rstrip('\n')
-        #output = subprocess.check_output(['tracert', link]) #работает криво, исправлю
-        #print(str(output)) #работает криво, исправлю
-        newlink = network_connection_check(link)
-        scr.scr_f(newlink)
+        outf.write('%-23s' % (link + trace_data[i] + '\n'))
+        if(i != size -1):
+            outf.write('/----------------------------------------------------------/' + '\n')
+
+def main_script(src_file):
+    size = file_size(src_file)
+    f = open(src_file)
+
+    for i in range (size):
+        line = f.readline()
+        lines.append(line.rstrip('\n'))
     f.close()
-    return line
+
+    access_data = check.connection_possibility(lines, size)
+    
+    for j in range (size):
+        trace(access_data[1][j])
+
+    for i2 in range(0, len(trace_data)):
+        access_data[2].append(trace_data[i2])
+    
+    return access_data

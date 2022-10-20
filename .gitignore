@@ -1,1 +1,2 @@
-scr\geckodriver.log
+__pycache__
+geckodriver.log
