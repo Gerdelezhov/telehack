@@ -30,31 +30,31 @@ Bнтерпретатор Python и его библиотеки (tkinter, seleni
 
 ## Пример работы:
 <div align="center">
-<img align="center" src = 'https://github.com/Gerdelezhov/telehack/blob/master/pictures%20for%20readme/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA1.png'><br>
+<img align="center" src = 'https://github.com/Gerdelezhov/telehack/blob/master/pictures%20for%20readme/docs/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA1.png'><br>
 1. Программа сразу после запуска
 
-<img align="center" src = 'https://github.com/Gerdelezhov/telehack/blob/master/pictures%20for%20readme/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA2.png'><br>
+<img align="center" src = 'https://github.com/Gerdelezhov/telehack/blob/master/pictures%20for%20readme/docs/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA2.png'><br>
 2. Выбор Файла
 
-<img align="center" src = 'https://github.com/Gerdelezhov/telehack/blob/master/pictures%20for%20readme/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA3.png'><br>
+<img align="center" src = 'https://github.com/Gerdelezhov/telehack/blob/master/pictures%20for%20readme/docs/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA3.png'><br>
 3. Программа после загрузки файла.
 
-<img align="center" src = 'https://github.com/Gerdelezhov/telehack/blob/master/pictures%20for%20readme/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA4.png'><br>
+<img align="center" src = 'https://github.com/Gerdelezhov/telehack/blob/master/pictures%20for%20readme/docs/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA4.png'><br>
 4. Программа после запуска проверки.
 
-<img align="center" src = 'https://github.com/Gerdelezhov/telehack/blob/master/pictures%20for%20readme/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA5.png'><br>
+<img align="center" src = 'https://github.com/Gerdelezhov/telehack/blob/master/pictures%20for%20readme/docs/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA5.png'><br>
 5. Программа после окончания проверки.
 
-<img align="center" src = 'https://github.com/Gerdelezhov/telehack/blob/master/pictures%20for%20readme/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA6.png'><br>
+<img align="center" src = 'https://github.com/Gerdelezhov/telehack/blob/master/pictures%20for%20readme/docs/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA6.png'><br>
 6. Результат трассировки сайта e1.ru (нажатие на кнопку 1), выводится в новом окне.
 
-<img align="center" src = 'https://github.com/Gerdelezhov/telehack/blob/master/pictures%20for%20readme/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA7.png'><br>
+<img align="center" src = 'https://github.com/Gerdelezhov/telehack/blob/master/pictures%20for%20readme/docs/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA7.png'><br>
 7. Изображение ya.ru (нажатие на кнопку 2).
 
-<img align="center" src = 'https://github.com/Gerdelezhov/telehack/blob/master/pictures%20for%20readme/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA8.png'><br>
+<img align="center" src = 'https://github.com/Gerdelezhov/telehack/blob/master/pictures%20for%20readme/docs/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA8.png'><br>
 8. Запущенный браузер www.gosuslugi.ru (нажатие на кнопку 3).
 
-<img align="center" src = 'https://github.com/Gerdelezhov/telehack/blob/master/pictures%20for%20readme/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA9.png'><br>
+<img align="center" src = 'https://github.com/Gerdelezhov/telehack/blob/master/pictures%20for%20readme/docs/%D0%A0%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA9.png'><br>
 9. Содержимое файла results.txt (нажатие на кнопку ‘Сохранить результат’).
 
 </div>
