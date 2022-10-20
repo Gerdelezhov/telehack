@@ -5,7 +5,7 @@
 
 #### Участники команды:  
 - https://github.com/Gerdelezhov
-- https://github.com/asedelnikov
+- https://github.com/AleksandrSedelnikov
 - (ссылка)
 
 ## Цель работы:  
